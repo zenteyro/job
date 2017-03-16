@@ -1,0 +1,20 @@
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\WcfService.dll.config
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\WcfService.dll
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\WcfService.pdb
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\EntityFramework.dll
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\EntityFramework.SqlServer.dll
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\EntityFramework.xml
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\bin\EntityFramework.SqlServer.xml
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\obj\Debug\WcfService.dll
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\obj\Debug\WcfService.pdb
+C:\Users\User 7\documents\visual studio 2017\Projects\JobSolution\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WcfService\bin\WcfService.dll.config
+C:\Users\Admin\Desktop\WcfService\bin\WcfService.dll
+C:\Users\Admin\Desktop\WcfService\bin\WcfService.pdb
+C:\Users\Admin\Desktop\WcfService\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\WcfService\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\WcfService\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\WcfService\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.dll
+C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.pdb
