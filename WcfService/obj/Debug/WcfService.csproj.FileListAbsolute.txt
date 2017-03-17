@@ -18,3 +18,13 @@ C:\Users\Admin\Desktop\WcfService\bin\EntityFramework.SqlServer.xml
 C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.dll
 C:\Users\Admin\Desktop\WcfService\obj\Debug\WcfService.pdb
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\WcfService.dll.config
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\WcfService.dll
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\WcfService.pdb
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\job\job\WcfService\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\job\job\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\job\job\WcfService\obj\Debug\WcfService.dll
+C:\Users\Administrator\Desktop\job\job\WcfService\obj\Debug\WcfService.pdb

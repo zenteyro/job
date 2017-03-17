@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -28,7 +29,26 @@ namespace WindowsForms
             string phoneNumber = phoneTextBox.Text;
             string address = addressTextBox.Text.Trim(' ');
 
-            if (wcfClient.GetClientByLogin(login) != null || login == "admin")
+            Client createdClient = new Client
+            {
+                LoginName = login,
+                FirstName = firstName,
+                LastName = lastName,
+                PhoneNumber = phoneNumber,
+                Address = address
+            };
+
+            var results = new List<ValidationResult>();
+            var context = new ValidationContext(createdClient);
+            if (!Validator.TryValidateObject(createdClient, context, results, true))
+            {
+                foreach (var error in results)
+                {
+                    MessageBox.Show(error.ErrorMessage);
+                }
+            }
+
+                if (wcfClient.GetClientByLogin(login) != null || login == "admin")
             {
                 MessageBox.Show("The user exists with pointed login");
             }
@@ -38,14 +58,7 @@ namespace WindowsForms
                     MessageBox.Show("Input your login");
                 else
                 {
-                    Client createdClient = new Client
-                    {
-                        LoginName = login,
-                        FirstName = firstName,
-                        LastName = lastName,
-                        PhoneNumber = phoneNumber,
-                        Address = address
-                    };
+
 
                     wcfClient.InsertClient(createdClient);
 

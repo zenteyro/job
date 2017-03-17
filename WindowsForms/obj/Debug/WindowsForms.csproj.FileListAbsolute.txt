@@ -36,3 +36,16 @@ C:\Users\Admin\Desktop\realese\WindowsForms\obj\Debug\WindowsForms.RegistrationF
 C:\Users\Admin\Desktop\realese\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.Cache
 C:\Users\Admin\Desktop\realese\WindowsForms\obj\Debug\WindowsForms.exe
 C:\Users\Admin\Desktop\realese\WindowsForms\obj\Debug\WindowsForms.pdb
+C:\Users\Administrator\Desktop\job\job\WindowsForms\bin\Debug\WindowsForms.exe.config
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.exe
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.pdb
+C:\Users\Administrator\Desktop\job\job\WindowsForms\bin\Debug\WindowsForms.exe
+C:\Users\Administrator\Desktop\job\job\WindowsForms\bin\Debug\WindowsForms.pdb
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.EditForm.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.AdminForm.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.ClientForm.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.LoginForm.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.RegistrationForm.resources
+C:\Users\Administrator\Desktop\job\job\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.Cache

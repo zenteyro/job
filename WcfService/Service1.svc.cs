@@ -48,25 +48,7 @@ namespace WcfService
         {
             return db.Sessions.Where(c => c.ClientId == clientId).Where(c => c.SessionStart >= start && c.SessionEnd <= end).ToList();
         }
-
-        public string GetData(int value)
-        {
-            return string.Format("You entered: {0}", value);
-        }
-
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
-        }
-
+        
         public List<Session> GetSessionsByClientId(int id)
         {
             return db.Sessions.Include(c => c.Client).Where(c => c.ClientId == id).ToList();

@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="http://localhost:56180/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService" />
-  <xs:element name="GetData">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="value" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="GetDataResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="GetDataResult" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="GetDataUsingDataContract">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="composite" nillable="true" type="q1:CompositeType" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="GetDataUsingDataContractResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetDataUsingDataContractResult" nillable="true" type="q2:CompositeType" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
   <xs:element name="GetAllClients">
     <xs:complexType>
       <xs:sequence />
@@ -37,7 +9,7 @@
   <xs:element name="GetAllClientsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetAllClientsResult" nillable="true" type="q3:ArrayOfClient" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetAllClientsResult" nillable="true" type="q1:ArrayOfClient" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -51,7 +23,7 @@
   <xs:element name="GetClientByIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientByIdResult" nillable="true" type="q4:Client" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientByIdResult" nillable="true" type="q2:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -65,14 +37,14 @@
   <xs:element name="GetClientByLoginResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientByLoginResult" nillable="true" type="q5:Client" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientByLoginResult" nillable="true" type="q3:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertClient">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="client" nillable="true" type="q6:Client" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="client" nillable="true" type="q4:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -86,8 +58,8 @@
   <xs:element name="InsertSession">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="session" nillable="true" type="q7:Session" />
-        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="client" nillable="true" type="q8:Client" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="session" nillable="true" type="q5:Session" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="client" nillable="true" type="q6:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -106,7 +78,7 @@
   <xs:element name="GetAllSessionsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetAllSessionsResult" nillable="true" type="q9:ArrayOfSession" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetAllSessionsResult" nillable="true" type="q7:ArrayOfSession" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -120,7 +92,7 @@
   <xs:element name="GetSessionsByClientIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetSessionsByClientIdResult" nillable="true" type="q10:ArrayOfSession" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetSessionsByClientIdResult" nillable="true" type="q8:ArrayOfSession" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -136,14 +108,14 @@
   <xs:element name="GetClientSessionsByPeriodResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientSessionsByPeriodResult" nillable="true" type="q11:ArrayOfSession" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="GetClientSessionsByPeriodResult" nillable="true" type="q9:ArrayOfSession" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="UpdateClient">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="editedClient" nillable="true" type="q12:Client" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="editedClient" nillable="true" type="q10:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -157,7 +129,7 @@
   <xs:element name="DeleteClient">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="deletedClient" nillable="true" type="q13:Client" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="deletedClient" nillable="true" type="q11:Client" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
